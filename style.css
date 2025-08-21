@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f7f6; /* Couleur de fond douce */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    background-color: #464646;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 25px;
+    height: auto;
+}
+
+h1 {
+    color: #ffffff; /* Bleu foncé pour le titre */
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.signature {
+    font-style: italic;
+    margin-top: 30px;
+    color: #9cf8ff; /* Gris doux pour la signature */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3498db; /* Bleu vif pour le bouton */
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Bleu plus foncé au survol */
+    transform: translateY(-2px);
+}
